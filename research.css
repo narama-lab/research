@@ -15,7 +15,10 @@
 }
 ol {
 	list-style-type: decimal;
-	margin-left: 26px;
+	margin-left: 30px;
+}
+ul{
+	list-style: none;
 }
 li{
 	margin-top: 20px;
@@ -24,6 +27,7 @@ li{
 p{
 	font-size: 18px;
 	margin-top: 24px;
+	margin-left: 3px;
 }
 .research-title-third{
 	margin-top: 50px;
