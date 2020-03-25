@@ -13,3 +13,18 @@
 	margin-right:auto;
 	border-bottom:2px solid #333;
 }
+ol {
+	list-style-type: decimal;
+	margin-left: 26px;
+}
+li{
+	margin-top: 20px;
+	font-size: 18px;
+}
+p{
+	font-size: 18px;
+	margin-top: 24px;
+}
+.research-title-third{
+	margin-top: 50px;
+}
