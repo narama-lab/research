@@ -5,6 +5,7 @@
 }
 .research-main{
 	color:#333;
+	padding-bottom: 30px;
 }
 .research-title{
 	width:920px;
@@ -16,9 +17,11 @@
 ol {
 	list-style-type: decimal;
 	margin-left: 30px;
+	padding-left: 16px;
 }
 ul{
 	list-style: none;
+	padding-left: 16px;
 }
 li{
 	margin-top: 20px;
@@ -27,7 +30,7 @@ li{
 p{
 	font-size: 18px;
 	margin-top: 24px;
-	margin-left: 3px;
+	padding-left: 16px;
 }
 .research-title-third{
 	margin-top: 50px;
