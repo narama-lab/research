@@ -3,6 +3,11 @@
 	.navi, .menu{
 		height:80px ;
 	}
+	
+	body {
+		width: 460px;
+	}
+	
 	.menu a{
 		line-height: 80px;
 		font-size: 26px;
