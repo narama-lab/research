@@ -38,3 +38,8 @@ p{
 .research-title-third{
 	margin-top: 50px;
 }
+.research-img{
+	display: block;
+	margin:40px auto 0 auto;
+	object-fit: cover;
+}
