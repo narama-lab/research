@@ -42,4 +42,5 @@ p{
 	display: block;
 	margin:40px auto 0 auto;
 	object-fit: cover;
+	width:80%;
 }
