@@ -5,12 +5,13 @@
     letter-spacing:1.5px;
 }
 body{
-    width:960px;
+    max-width:960px;
+    width:100%;
     margin:0 auto;
     }
 header{
     height:90px;
-    background-color:rgba(34, 49, 52, 0.9);
+    background-color:#384548;
     border-bottom:1px solid #CCCCCC;
 }
 .header-left{ 
@@ -28,6 +29,42 @@ header{
     font-family:'Alegreya Sans SC', sans-serif;
     font-size:25px;
 }
+header i{
+            display:none;
+            font-size: 46px;
+            color:#fff;
+            position: absolute;
+            top:22px;
+            right:22px;
+        }
+.menu-res{
+            display: none;
+            height:100vh;
+            background-color:rgba(34, 49, 52, 0.9);
+            z-index: 1000;
+            position: fixed;
+            top:91px;
+            width:100%;
+            
+        }
+.menu-res ul{
+    list-style: none;
+                padding:0 !important;
+                margin-top: 60px;
+}
+.menu-res li{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left:0;
+}
+.menu-res a{
+    color:#fff;
+                        display: block;
+                        text-align: center;
+}
+.menu-res :hover{
+    border-bottom: none;
+}
 .navi{
     height:55px;
     background-color:rgba(34,49,52,0.9);
@@ -39,7 +76,7 @@ header{
 }
 .fixed {
   position:sticky;
-  width: 960px;
+  width: 100%;
   top: 0;
   z-index: 1000;
 }
