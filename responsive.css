@@ -7,6 +7,9 @@
 	body{
 		padding-top:91px;	
 	}
+	.research-main{
+		padding-bottom:90px;
+	}
 	header{
 		position: fixed;
     		z-index: 1000;
