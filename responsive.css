@@ -2,8 +2,23 @@
 @media screen and (max-width:670px){
 	.navi, .menu{
 		height:80px ;
+		display:none;
 	}
-	
+	body{
+		padding-top:91px;	
+	}
+	header{
+		position: fixed;
+    		z-index: 1000;
+    		top:0;
+    		width:100%;
+	}
+	.header-title{
+		display:none;
+	}
+	header i{
+		display:block;	
+	}
 	.menu a{
 		line-height: 80px;
 		font-size: 26px;
@@ -20,4 +35,10 @@
 	.research-title-third{
 		font-size:23px;
 	}
+	footer p{
+		width:90%;
+		margin:0 auto;
+		font-size:12px;
+	}
+
 }
